@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+227/227 [==============================] - 104s 435ms/step - loss: 5.9018
+/home/robert/miniconda3/envs/gpu/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+---------------------Actual---------------------
+startseq black dog and spotted dog are fighting endseq
+startseq black dog and tri-colored dog playing with each other on the road endseq
+startseq black dog and white dog with brown spots are staring at each other in the street endseq
+startseq two dogs of different breeds looking at each other on the road endseq
+startseq two dogs on pavement moving toward each other endseq
+--------------------Predicted--------------------
+startseq dog dog dog dog dog dog dog dog dog dog dog dog dog dog dog dog dog dog endseq
+---------------------Actual---------------------
+startseq little girl covered in paint sits in front of painted rainbow with her hands in bowl endseq
+startseq little girl is sitting in front of large painted rainbow endseq
+startseq small girl in the grass plays with fingerpaints in front of white canvas with rainbow on it endseq
+startseq there is girl with pigtails sitting in front of rainbow painting endseq
+startseq young girl with pigtails painting outside in the grass endseq
+--------------------Predicted--------------------

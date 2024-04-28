@@ -1,0 +1,52 @@
+2024-04-24 19:51:16.233008: W tensorflow/core/common_runtime/type_inference.cc:339] Type inference failed. This indicates an invalid graph that escaped type checking. Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_INT32
+    }
+  }
+}
+ is neither a subtype nor a supertype of the combined inputs preceding it:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_FLOAT
+    }
+  }
+}
+	for Tuple type infernce function 0
+	while inferring type of node 'cond_36/output/_23'
+2024-04-24 19:51:17.064167: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8907
+2024-04-24 19:51:17.081743: I external/local_xla/xla/service/service.cc:168] XLA service 0x7f8bce8bb230 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-04-24 19:51:17.081785: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 4070 Laptop GPU, Compute Capability 8.9
+2024-04-24 19:51:17.085323: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1713981077.153990  208680 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 85/227 [==========>...................] - ETA: 1:02 - loss: 5.4637
+
+
+ 95/227 [===========>..................] - ETA: 58s - loss: 5.3703
